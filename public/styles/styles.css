@@ -1,3 +1,4 @@
+<style>
 body {
   font-family: sans-serif;
   background-image: url('http://i.imgur.com/eIdScCo.png');
@@ -8,7 +9,7 @@ body {
 }
 
 main {
-  padding-top: 500px;
+  padding-top: 900px;
   margin: 0;
   border-radius: 1em;
   position: absolute;

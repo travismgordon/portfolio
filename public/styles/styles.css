@@ -139,12 +139,11 @@ section div{
   z-index: 9000;
 }
 
-#rubywar {
-  position: absolute;
-  top: 20px;
-  left: 80px;
-  width: 240px
-}
+#ruby-war{
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    width: 240px;
 }
 
 #webdev {}

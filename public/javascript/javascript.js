@@ -1,15 +1,27 @@
-var canvasHeight = $(window).height();
-var floatingBanners = $("#rubywar");
-var imageHeight = floatingBanners.height();
-var lowerBound = canvasHeight - imageHeight;
-var duration = 10000;
+$(function(){
 
-function bannerMoveDown(){
-    $("#rubywar").animate({top:lowerBound}, duration, 'linear', bannerMoveUp);
-}
+	var canvasHeight = $(window).height();
+	var rubyWar = $("#ruby-war");
+	var imageHeight = rubyWar.height();
+	var lowerBound = canvasHeight - imageHeight;
+	var duration = 10000;
 
-function bannerMoveUp(){
-    $("#rubywar").animate({top:0}, duration, 'linear', bannerMoveDown);
-}
+	function bannerMoveDown(){
+    $("#ruby-war").animate({top:lowerBound}, duration, 'linear', bannerMoveUp);
+	}
+	function bannerMoveUp(){
+	    $("#ruby-war").animate({top:0}, duration, 'linear', bannerMoveDown);
+	}
+	
+	bannerMoveDown();
 
-bannerMoveDown();
+	// $(document).on('mousemove', function(e){
+	// 	$('#ruby-war').css({
+	// 		left: e.pageX,
+	// 		top: e.pageY
+
+	// 	});
+	// });
+
+
+});

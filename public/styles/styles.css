@@ -140,11 +140,11 @@ section div{
 }
 
 #rubywar {
-  position: fixed !important;
-  padding-left: 80px;
-  padding-top: 20px;
-  z-index: 8000;
+  position: absolute;
+  top: 20px;
+  left: 80px;
   width: 240px
+}
 }
 
 #webdev {}
